@@ -18,9 +18,8 @@ pipeline {
         }
     }
 
-    post {
-        success {
-            echo 'Portfolio deployed successfully to Apache!'
-        }
-    }
+   post {
+    success {
+        echo 'Portfolio deployed successfully to Apache!'
+    }
 }
